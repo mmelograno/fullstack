@@ -1,0 +1,76 @@
+.authentication {
+  background-color: #ffffff;
+}
+
+.authentication input {
+  background-color: #efefef;
+  border: 1px solid #6d6d6d;
+  border-bottom: none;
+  border-top: none;
+  font-weight: 400;
+  border-radius: 0;
+  font-size: 12px;
+}
+
+.authentication input:focus {
+  background-color: #efefef;
+  border: 2px solid #d6660aa6;
+  border-radius: 3px;
+}
+
+.authentication button {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.authentication button:hover{
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.authentication-logo {
+  padding-right: 5px;
+}
+
+.authentication-title {
+  text-align: left;
+}
+
+.authentication hr {
+	border-top: 1px dotted #8c8b8b;
+}
+
+.invalid {
+  float: left;
+  font-size: 10px;
+  color: red;
+}
+
+.has-error input {
+  border: solid 2px red;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style icon */
+.inner-addon .fa {
+position: absolute;
+padding: 5px;
+pointer-events: none;
+color: red;
+}
+
+/* align icon */
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

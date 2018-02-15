@@ -1,0 +1,33 @@
+version: "3"
+services:
+
+  backend:
+    build: ./backend
+    command: nodemon server.js
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: development
+    depends_on:
+      - mongo
+    links:
+      - mongo
+    volumes: 
+      - ./backend:/backend
+      - /backend/node_modules
+
+  frontend:
+    build: ./frontend
+    command: npm start
+    volumes: 
+      - ./frontend:/frontend
+      - /frontend/node_modules
+    ports:
+      - "3001:3000"
+    
+  mongo:
+    image: mongo
+    volumes:
+      - /data/mongodb/db:/data/db
+    ports:
+      - "27017:27017"

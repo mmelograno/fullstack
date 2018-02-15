@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background-color: #efefef;
+}
+
+.title-selected {
+  text-align: left;
+}
+
+.divider {
+  margin-top: 0;
+  border-top: 2px solid rgba(0,0,0,.1);
+}

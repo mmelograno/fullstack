@@ -1,0 +1,35 @@
+.footer {
+  font-family: sans-serif;
+  background-color: #000000;
+}
+
+.container-full {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+.title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 1em;
+}
+
+.nav-title-footer {
+  color: #fff !important;
+  font-size: 12px;
+}
+
+.title-fonts {
+  color: #fff !important;
+}
+
+.nav-title-footer:hover{
+  text-decoration: underline;
+}
+
